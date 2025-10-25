@@ -11,6 +11,7 @@ This project is an **AI-powered chatbot** built using **Generative AI** and **La
 
 ## Project Structure
 
+```plaintext
 ai_powered_chatbot_using_generative_ai_and_langchain/
 │
 ├── 1-langchain_basics/                # Core LangChain scripts and examples
@@ -27,7 +28,7 @@ ai_powered_chatbot_using_generative_ai_and_langchain/
 ├── .env                                 # Environment variables (API keys)
 ├── .gitignore                           # Ignore environment, secrets, etc.
 └── uv.lock                              # Dependency lock file
-
+```
 
 ## Installation
 1. **Clone the repository**
