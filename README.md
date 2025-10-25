@@ -14,8 +14,9 @@ This project is an **AI-powered chatbot** built using **Generative AI** and **La
 ```plaintext
 ai_powered_chatbot_using_generative_ai_and_langchain/
 │
-├── 1-langchain_basics/                # Core LangChain scripts and examples
+├── 1-langchain_basics/                 # Core LangChain scripts and examples
 │   ├── chatbot.py                      # Basic chatbot implementation
+|   ├── .env                            # Environment variables (API keys)
 │   ├── qachatbot.py                    # Document-based Q&A chatbot
 │   ├── tools.ipynb                     # Experimentation with LangChain tools
 │   └── langchain_basics.ipynb          # Tutorials and experiments
@@ -25,7 +26,6 @@ ai_powered_chatbot_using_generative_ai_and_langchain/
 ├── pyproject.toml                       # Project configuration
 ├── README.md                            # Project documentation
 ├── .python-version                      # Python version used
-├── .env                                 # Environment variables (API keys)
 ├── .gitignore                           # Ignore environment, secrets, etc.
 └── uv.lock                              # Dependency lock file
 ```
